@@ -50,7 +50,7 @@
 プロバイダ値を設定するために `set_fact` を含む tasks を追加します。
 
 {% raw %}
-```
+``` yaml
 ---
 - name: BIG-IP SETUP
   hosts: lb

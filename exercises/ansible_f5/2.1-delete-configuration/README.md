@@ -49,7 +49,7 @@ Enter the following play definition into `bigip-delete-configuration.yml`:
 Add a tasks section with a set_fact for setting the provider values
 
 {% raw %}
-```
+``` yaml
 ---
 - name: BIG-IP SETUP
   hosts: lb
